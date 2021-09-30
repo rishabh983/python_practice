@@ -10,15 +10,15 @@ def getdate():
 
 def retrieve_data(a):
     if a==1:
-        f = open("harry.txt","r")
+        f = open("harry_exercise.txt","r")
         print(f.read())
         f.close()
     elif a==2:
-        f = open("rohan.txt","r")
+        f = open("rohan_exercise.txt","r")
         print(f.read())
         f.close()
     elif a==3:
-        f = open("hammad.txt","r")
+        f = open("hammad_exercise.txt","r")
         print(f.read())
         f.close()
 
